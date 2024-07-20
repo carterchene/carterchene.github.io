@@ -6,7 +6,7 @@ theme = "soho"
 [params]
   profilePicture = "/picofme.jpg"
   author = "Carter"
-  DisableShare = true
+  description = "My Blog"
 
 [[params.socialIcons]]
 icon = "fas fa-file-alt"  # Choose the appropriate icon

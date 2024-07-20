@@ -1,0 +1,6 @@
+[submodule "soho"]
+	path = soho
+	url = https://github.com/supercarter/soho.git
+[submodule "themes/soho"]
+	path = themes/soho
+	url = https://github.com/supercarter/soho.git

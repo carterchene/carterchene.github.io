@@ -18,4 +18,4 @@ Check out my projects below to see examples of my work in data engineering and a
 
 ### Links
 
-[Notes](/notes/notes)
+[Notes](/notes)

@@ -14,7 +14,7 @@ Check out my projects below to see examples of my work in data engineering and a
 
 ### Projects
 
-[Web Scraping DrugAge](https://github.com/supercarter/longevity-drugs-analysis): An ETL pipeline scraping data from [drug age](https://genomics.senescence.info/) using [Dagster](https://dagster.io/), [duckDB](https://duckdb.org/), [dbt](https://www.getdbt.com/), [BigQuery](https://cloud.google.com/bigquery), and [Streamlit](https://streamlit.io/). See the live app [here](https://drug-age-analysis.azurewebsites.net/)
+[Web Scraping DrugAge](https://github.com/carterchene/longevity-drugs-analysis): An ETL pipeline scraping data from [drug age](https://genomics.senescence.info/) using [Dagster](https://dagster.io/), [duckDB](https://duckdb.org/), [dbt](https://www.getdbt.com/), [BigQuery](https://cloud.google.com/bigquery), and [Streamlit](https://streamlit.io/). See the live app [here](https://drug-age-analysis.azurewebsites.net/)
 
 ### Links
 

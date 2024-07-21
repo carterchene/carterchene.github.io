@@ -1,4 +1,4 @@
-baseURL = 'https://supercarter.github.io'
+baseURL = 'https://carterchene.github.io'
 publishDir = 'public'
 languageCode = 'en-us'
 title = 'Carter Chene'
@@ -17,7 +17,7 @@ url = "/documents/CarterCheneCV.pdf"  # Update this to the actual path of your r
 [[params.socialIcons]]
   icon = "fa-github"
   title = "GitHub"
-  url = "https://github.com/supercarter"
+  url = "https://github.com/carterchene"
 
 [[params.socialIcons]]
   icon = "fa-linkedin"

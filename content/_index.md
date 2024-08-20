@@ -15,6 +15,8 @@ Check out my personal projects below.
 
 ### Projects
 
+- [Streaming on AWS with Flink](https://github.com/carterchene/flink-streaming-demo): A streaming pipeline that replicates a music streaming platform, all on AWS resources. It uses [Apache Kafka](https://kafka.apache.org/), [Apache Flink](https://flink.apache.org/) on [Amazon EMR](https://aws.amazon.com/emr/). [Metabase](https://www.metabase.com/) is used as the BI tool. 
+
 - [Web Scraping DrugAge](https://github.com/carterchene/longevity-drugs-analysis): An ETL pipeline scraping data from [drug age](https://genomics.senescence.info/) using [Dagster](https://dagster.io/), [duckDB](https://duckdb.org/), [dbt](https://www.getdbt.com/), [BigQuery](https://cloud.google.com/bigquery), and [Streamlit](https://streamlit.io/). See the live app [here](https://drug-age-analysis.azurewebsites.net/) (hosted in Azure with [Docker](https://www.docker.com/))
 
 - [Datawarehouse Management App](https://github.com/carterchene/datawarehouse-management-app): An app for writing data to Google BigQuery. I have frequently encountered clients that need to write data back at the data warehouse level. I have successfully addressed this challenge using various technologies, including Streamlit, PowerApps, Django, Excel, and SharePoint. In this project, I leverage [FastAPI](https://fastapi.tiangolo.com/) and [AgGrid](https://www.ag-grid.com/), which strike a great balance between simplicity (compared to Django) and front-end control (compared to Streamlit).

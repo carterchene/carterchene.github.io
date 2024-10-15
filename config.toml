@@ -1,0 +1,31 @@
+baseURL = 'https://carterchene.github.io'
+publishDir = 'public'
+languageCode = 'en-us'
+title = 'Carter Chene'
+theme = "soho"
+
+[params]
+  profilePicture = "/picofme.jpg"
+  author = "Carter"
+  description = "My Blog"
+
+[[params.socialIcons]]
+icon = "fas fa-file-alt"  # Choose the appropriate icon
+title = "CV"
+url = "/documents/CarterCheneCV.pdf"  # Update this to the actual path of your resume
+
+[[params.socialIcons]]
+  icon = "fa-github"
+  title = "GitHub"
+  url = "https://github.com/carterchene"
+
+[[params.socialIcons]]
+  icon = "fa-linkedin"
+  title = "Linkedin"
+  url = "https://www.linkedin.com/in/carterchene/"
+
+[[params.socialIcons]]
+  icon = "fa-goodreads"  # Add an appropriate icon class here
+  title = "Goodreads"
+  url = "https://www.goodreads.com/user/show/115413409-carter-chene"
+

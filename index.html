@@ -4,24 +4,114 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Carter Chene</title>
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'Georgia', serif;
-      background: #fff;
-      color: #313131;
-    }
-    h1 {
-      font-size: 4rem;
-      font-weight: 400;
-    }
-  </style>
+  <meta name="description" content="Data and ML Platform Engineer in Toronto">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144-precomposed.png">
 </head>
 <body>
-  <h1>Julia &lt;3</h1>
+  <aside class="sidebar">
+    <div class="container">
+      <div class="sidebar-about">
+        <div class="author-image">
+          <a href="/">
+            <img src="picofme.jpg" class="img-circle img-headshot center" alt="Profile Picture">
+          </a>
+        </div>
+        <h1>Carter Chene</h1>
+      </div>
+
+      <nav>
+        <ul class="sidebar-nav">
+          <li class="email-item">
+            <i class="fas fa-envelope"></i>
+            <span>carter.chene26@gmail.com</span>
+          </li>
+          <li>Data &amp; ML Platform Engineer in Toronto, ON.</li>
+        </ul>
+      </nav>
+
+      <br>
+
+      <section class="social-icons">
+        <div class="social-icon-item">
+          <a href="documents/CarterCheneCV.pdf" title="CV" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-file-alt" aria-hidden="true"></i>
+            <span class="social-icon-text">&nbsp;&nbsp;CV</span>
+          </a>
+        </div>
+        <div class="social-icon-item">
+          <a href="https://github.com/carterchene" title="GitHub" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github" aria-hidden="true"></i>
+            <span class="social-icon-text">&nbsp;&nbsp;GitHub</span>
+          </a>
+        </div>
+        <div class="social-icon-item">
+          <a href="https://www.linkedin.com/in/carterchene/" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+            <span class="social-icon-text">&nbsp;&nbsp;LinkedIn</span>
+          </a>
+        </div>
+        <div class="social-icon-item">
+          <a href="https://www.goodreads.com/user/show/115413409-carter-chene" title="Goodreads" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-goodreads" aria-hidden="true"></i>
+            <span class="social-icon-text">&nbsp;&nbsp;Goodreads</span>
+          </a>
+        </div>
+      </section>
+    </div>
+  </aside>
+
+  <main class="content container">
+    <div class="posts">
+      <p>Data and ML platform engineer working in Toronto. My tech stack includes
+        <a href="https://aws.amazon.com/">AWS</a>,
+        <a href="https://kafka.apache.org/">Kafka</a>,
+        <a href="https://debezium.io/">Debezium</a>,
+        <a href="https://grpc.io/">gRPC</a> APIs,
+        and <a href="https://spark.apache.org/">Spark</a>
+        (<a href="https://aws.amazon.com/glue/">Glue</a>,
+        <a href="https://www.databricks.com/">Databricks</a>).
+        In my spare time, I like to stay active by running and lifting weights.</p>
+
+      <p>I received my Bachelor&rsquo;s degree in Physics with Honours from the University of British Columbia (UBC),
+        specializing in Computational Physics. This background has provided me with a strong foundation in analytical
+        thinking, problem-solving and coding skills that I apply to my work.</p>
+
+      <p>Check out my personal projects below.</p>
+
+      <h3>Projects</h3>
+      <ul>
+        <li>
+          <p><a href="https://github.com/carterchene/flink-streaming-demo">Streaming on AWS with Flink</a>:
+            A streaming pipeline that replicates a music streaming platform, all on AWS resources. It uses
+            <a href="https://kafka.apache.org/">Apache Kafka</a>,
+            <a href="https://flink.apache.org/">Apache Flink</a> on
+            <a href="https://aws.amazon.com/emr/">Amazon EMR</a>.
+            <a href="https://www.metabase.com/">Metabase</a> is used as the BI tool.</p>
+        </li>
+        <li>
+          <p><a href="https://github.com/carterchene/longevity-drugs-analysis">Web Scraping DrugAge</a>:
+            An ETL pipeline scraping data from <a href="https://genomics.senescence.info/">drug age</a> using
+            <a href="https://dagster.io/">Dagster</a>,
+            <a href="https://duckdb.org/">duckDB</a>,
+            <a href="https://www.getdbt.com/">dbt</a>,
+            <a href="https://cloud.google.com/bigquery">BigQuery</a>, and
+            <a href="https://streamlit.io/">Streamlit</a>.
+            See the live app <a href="https://drug-age-analysis.azurewebsites.net/">here</a>
+            (hosted in Azure with <a href="https://www.docker.com/">Docker</a>)</p>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <div>
+      <p>&copy; 2025</p>
+    </div>
+  </footer>
 </body>
 </html>

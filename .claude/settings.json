@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl *)"
+    ]
+  },
+  "sandbox": {
+    "network": {
+      "allowedDomains": [
+        "*"
+      ]
+    }
+  }
+}

@@ -136,12 +136,21 @@ main {
   font-weight: 400;
 }
 
-.intro > p {
+.intro-copy {
   max-width: 28rem;
+}
+
+.intro-copy p {
   margin: 0;
   color: #3e403a;
   font-size: clamp(0.96rem, 1.35vw, 1.08rem);
   line-height: 1.55;
+}
+
+.intro-copy .personal {
+  margin-top: 0.65rem;
+  color: var(--muted);
+  font-size: 0.76rem;
 }
 
 .work {
@@ -193,7 +202,21 @@ main {
   gap: 1rem;
 }
 
-.work-heading a {
+.company {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.company-logo {
+  width: 1.75rem;
+  height: 1.75rem;
+  flex: 0 0 auto;
+  object-fit: contain;
+}
+
+.company a {
   display: inline-flex;
   align-items: baseline;
   gap: 0.3rem;
@@ -203,13 +226,20 @@ main {
   text-decoration: none;
 }
 
-.work-heading a:hover {
+.company a:hover {
   text-decoration: underline;
 }
 
-.work-heading a span {
+.company a span {
   color: var(--muted);
   font-size: 0.65rem;
+}
+
+.work-role {
+  margin: 0.05rem 0 0;
+  color: var(--muted);
+  font-size: 0.65rem;
+  line-height: 1.25;
 }
 
 .work-heading > span {
@@ -227,7 +257,7 @@ main {
 
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 2rem;
   padding-top: 1rem;
   color: var(--muted);

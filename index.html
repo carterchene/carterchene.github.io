@@ -1,117 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carter Chene</title>
-  <meta name="description" content="Data and ML Platform Engineer in Toronto">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carter Chene — Data &amp; ML Platform Engineer</title>
+  <meta name="description" content="Carter Chene is a Toronto-based Data &amp; ML Platform Engineer building real-time systems, data platforms, and practical AI infrastructure.">
+  <meta name="theme-color" content="#f3f1ea">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Carter Chene — Data &amp; ML Platform Engineer">
+  <meta property="og:description" content="Real-time systems, data platforms, and practical AI infrastructure.">
+  <meta property="og:url" content="https://carterchene.github.io/">
+  <link rel="canonical" href="https://carterchene.github.io/">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
-        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
-  <link rel="shortcut icon" href="favicon.png">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144-precomposed.png">
 </head>
 <body>
-  <aside class="sidebar">
-    <div class="container">
-      <div class="sidebar-about">
-        <div class="author-image">
-          <a href="/">
-            <img src="picofme.jpg" class="img-circle img-headshot center" alt="Profile Picture">
-          </a>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Carter Chene, home">Carter Chene</a>
+    <nav aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#profile">Profile</a>
+      <a class="nav-contact" href="mailto:carter.chene26@gmail.com">Say hello <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Toronto, Canada</p>
+        <h1 id="hero-title">I build the systems behind <em>fast decisions.</em></h1>
+        <p class="hero-intro">I’m a Data &amp; ML Platform Engineer working across real-time services, modern data infrastructure, and the tools that help teams ship AI safely.</p>
+        <div class="hero-links" aria-label="Profile links">
+          <a href="mailto:carter.chene26@gmail.com">Email <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/carterchene/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/carterchene" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
         </div>
-        <h1>Carter Chene</h1>
       </div>
 
-      <nav>
-        <ul class="sidebar-nav">
-          <li class="email-item">
-            <i class="fas fa-envelope"></i>
-            <span>carter.chene26@gmail.com</span>
-          </li>
-          <li>Data &amp; ML Platform Engineer in Toronto, ON.</li>
+      <aside class="now-card" aria-label="Current role">
+        <div class="portrait-wrap">
+          <img src="picofme.jpg" alt="Carter Chene" width="649" height="649">
+        </div>
+        <div class="now-copy">
+          <p class="label">Currently</p>
+          <p class="now-role">Data &amp; ML Platform Engineer</p>
+          <p class="now-company">Homebase · Jan 2026—Now</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="work-section" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <p class="section-number">01 / Selected work</p>
+        <h2 id="work-title">Platforms that move from idea to production.</h2>
+      </div>
+
+      <div class="work-list">
+        <article class="work-item">
+          <div class="work-meta">
+            <p class="work-company">Homebase</p>
+            <p>Toronto · 2026—Now</p>
+          </div>
+          <div class="work-copy">
+            <p class="work-kicker">Real-time + applied AI</p>
+            <h3>Turning predictions into useful, observable products.</h3>
+            <p>I maintain gRPC microservices around predictive scheduling and shift assignment, with Kafka carrying real-time decisions through the system. I’m also building a self-serve LLM platform for resume parsing, PTO analysis, and job-posting workflows using FastAPI, gRPC, and React.</p>
+            <ul class="work-notes" aria-label="Additional Homebase work">
+              <li>Secure, observable application delivery through internal CLI tooling</li>
+              <li>Databricks PII strategy with Terraform, tagging, and masking</li>
+              <li>Airflow workloads moving from Redshift to Databricks</li>
+            </ul>
+          </div>
+          <p class="work-index" aria-hidden="true">A</p>
+        </article>
+
+        <article class="work-item">
+          <div class="work-meta">
+            <p class="work-company">Wave</p>
+            <p>2025—2026</p>
+          </div>
+          <div class="work-copy">
+            <p class="work-kicker">Data platform</p>
+            <h3>Reliable change data capture across a sharded estate.</h3>
+            <p>I worked on real-time CDC across roughly 20 sharded Postgres databases, improving Debezium signals and incremental snapshots through Kafka, Firehose, S3, Glue, Hudi, and Redshift Spectrum.</p>
+            <div class="metric">
+              <span class="metric-value">&gt;1 hr → &lt;5 min</span>
+              <span class="metric-label">JSON ingestion time after redesign</span>
+            </div>
+            <p class="work-detail">The platform also supported SFTP and Google Drive ingestion, with Grafana and Rootly making operations visible and actionable.</p>
+          </div>
+          <p class="work-index" aria-hidden="true">B</p>
+        </article>
+
+        <article class="work-item">
+          <div class="work-meta">
+            <p class="work-company">Syntropic</p>
+            <p>Independent product</p>
+          </div>
+          <div class="work-copy">
+            <p class="work-kicker">Founder + engineer</p>
+            <h3>A simpler way to operate data warehouses.</h3>
+            <p>I build Syntropic, a bootstrapped data operations product at about $1.8K MRR. Recent work includes MotherDuck destination support and an MCP server with an accompanying MCP App—bringing warehouse workflows closer to the tools teams already use.</p>
+            <a class="text-link" href="https://www.getsyntropic.com/" target="_blank" rel="noreferrer">Visit Syntropic <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="work-index" aria-hidden="true">C</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="profile-section" id="profile" aria-labelledby="profile-title">
+      <div class="section-heading">
+        <p class="section-number">02 / Profile</p>
+        <h2 id="profile-title">Technical range, practical bias.</h2>
+      </div>
+
+      <div class="profile-grid">
+        <div class="profile-intro">
+          <p>I’m most useful where infrastructure meets product: untangling distributed systems, making data trustworthy, and building paved roads that other engineers actually want to use.</p>
+          <p>My background is in computational physics at UBC. It shaped how I work today—start with the model, test it against reality, then make the result legible to everyone else.</p>
+        </div>
+
+        <div class="principles" aria-label="Working principles">
+          <article>
+            <span>01</span>
+            <h3>Design for operators</h3>
+            <p>Observability, failure states, and rollback belong in the first draft.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Automate the path</h3>
+            <p>Good platforms turn secure defaults into the easiest way to ship.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Use AI deliberately</h3>
+            <p>I use Claude Code and OpenAI Codex to compress feedback loops—not judgment.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="toolkit">
+        <p class="label">Working toolkit</p>
+        <ul>
+          <li>Kafka</li>
+          <li>Debezium</li>
+          <li>gRPC</li>
+          <li>FastAPI</li>
+          <li>React</li>
+          <li>Databricks</li>
+          <li>Airflow</li>
+          <li>Terraform</li>
+          <li>AWS</li>
+          <li>FastMCP</li>
+          <li>Datadog</li>
+          <li>Claude Code</li>
+          <li>OpenAI Codex</li>
         </ul>
-      </nav>
+      </div>
+    </section>
 
-      <br>
-
-      <section class="social-icons">
-        <div class="social-icon-item">
-          <a href="documents/CarterCheneCV.pdf" title="CV" target="_blank" rel="noopener noreferrer">
-            <i class="fas fa-file-alt" aria-hidden="true"></i>
-            <span class="social-icon-text">&nbsp;&nbsp;CV</span>
-          </a>
-        </div>
-        <div class="social-icon-item">
-          <a href="https://github.com/carterchene" title="GitHub" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-github" aria-hidden="true"></i>
-            <span class="social-icon-text">&nbsp;&nbsp;GitHub</span>
-          </a>
-        </div>
-        <div class="social-icon-item">
-          <a href="https://www.linkedin.com/in/carterchene/" title="LinkedIn" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-linkedin" aria-hidden="true"></i>
-            <span class="social-icon-text">&nbsp;&nbsp;LinkedIn</span>
-          </a>
-        </div>
-        <div class="social-icon-item">
-          <a href="https://www.goodreads.com/user/show/115413409-carter-chene" title="Goodreads" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-goodreads" aria-hidden="true"></i>
-            <span class="social-icon-text">&nbsp;&nbsp;Goodreads</span>
-          </a>
-        </div>
-      </section>
-    </div>
-  </aside>
-
-  <main class="content container">
-    <div class="posts">
-      <p>Data and ML platform engineer working in Toronto. My tech stack includes
-        <a href="https://aws.amazon.com/">AWS</a>,
-        <a href="https://kafka.apache.org/">Kafka</a>,
-        <a href="https://debezium.io/">Debezium</a>,
-        <a href="https://grpc.io/">gRPC</a> APIs,
-        and <a href="https://spark.apache.org/">Spark</a>
-        (<a href="https://aws.amazon.com/glue/">Glue</a>,
-        <a href="https://www.databricks.com/">Databricks</a>).
-        In my spare time, I like to stay active by running and lifting weights.</p>
-
-      <p>I received my Bachelor&rsquo;s degree in Physics with Honours from the University of British Columbia (UBC),
-        specializing in Computational Physics. This background has provided me with a strong foundation in analytical
-        thinking, problem-solving and coding skills that I apply to my work.</p>
-
-      <p>Check out my personal projects below.</p>
-
-      <h3>Projects</h3>
-      <ul>
-        <li>
-          <p><a href="https://github.com/carterchene/flink-streaming-demo">Streaming on AWS with Flink</a>:
-            A streaming pipeline that replicates a music streaming platform, all on AWS resources. It uses
-            <a href="https://kafka.apache.org/">Apache Kafka</a>,
-            <a href="https://flink.apache.org/">Apache Flink</a> on
-            <a href="https://aws.amazon.com/emr/">Amazon EMR</a>.
-            <a href="https://www.metabase.com/">Metabase</a> is used as the BI tool.</p>
-        </li>
-        <li>
-          <p><a href="https://github.com/carterchene/longevity-drugs-analysis">Web Scraping DrugAge</a>:
-            An ETL pipeline scraping data from <a href="https://genomics.senescence.info/">drug age</a> using
-            <a href="https://dagster.io/">Dagster</a>,
-            <a href="https://duckdb.org/">duckDB</a>,
-            <a href="https://www.getdbt.com/">dbt</a>,
-            <a href="https://cloud.google.com/bigquery">BigQuery</a>, and
-            <a href="https://streamlit.io/">Streamlit</a>.
-            See the live app <a href="https://drug-age-analysis.azurewebsites.net/">here</a>
-            (hosted in Azure with <a href="https://www.docker.com/">Docker</a>)</p>
-        </li>
-      </ul>
-    </div>
+    <section class="contact-section" aria-labelledby="contact-title">
+      <p class="section-number">03 / Contact</p>
+      <h2 id="contact-title">Have an interesting systems problem?</h2>
+      <a class="contact-link" href="mailto:carter.chene26@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a>
+    </section>
   </main>
 
   <footer>
-    <div>
-      <p>&copy; 2025</p>
-    </div>
+    <p>© 2026 Carter Chene</p>
+    <p>Built with plain HTML &amp; CSS in Toronto.</p>
   </footer>
 </body>
 </html>

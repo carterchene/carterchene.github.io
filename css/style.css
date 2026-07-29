@@ -73,14 +73,14 @@ main {
 
 .identity {
   display: grid;
-  grid-template-columns: 4.5rem 1fr auto;
-  gap: 1rem;
+  grid-template-columns: 2.75rem 1fr auto;
+  gap: 0.75rem;
   align-items: center;
 }
 
 .identity img {
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 2.75rem;
+  height: 2.75rem;
   object-fit: cover;
   background: var(--paper-deep);
   border: 1px solid var(--line);
@@ -92,7 +92,7 @@ main {
 }
 
 .name {
-  font-size: 1.35rem;
+  font-size: 1.18rem;
   font-weight: 700;
   letter-spacing: -0.04em;
   line-height: 1.1;
@@ -247,12 +247,12 @@ footer p {
   }
 
   .identity {
-    grid-template-columns: 3.9rem 1fr;
+    grid-template-columns: 2.75rem 1fr;
   }
 
   .identity img {
-    width: 3.9rem;
-    height: 3.9rem;
+    width: 2.75rem;
+    height: 2.75rem;
   }
 
   .contact-links {

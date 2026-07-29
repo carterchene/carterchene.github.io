@@ -7,7 +7,7 @@
   --accent: #bbff2e;
   --accent-dark: #315200;
   --max-width: 1440px;
-  --page-pad: clamp(1.25rem, 4vw, 4.5rem);
+  --page-pad: clamp(1.25rem, 3.5vw, 3.75rem);
 }
 
 *,
@@ -80,7 +80,7 @@ footer {
 }
 
 .site-header {
-  min-height: 5.5rem;
+  min-height: 4.75rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -126,12 +126,12 @@ footer {
 }
 
 .hero {
-  min-height: min(51rem, calc(100vh - 5.5rem));
+  min-height: min(43rem, calc(100vh - 4.75rem));
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(17rem, 25rem);
-  gap: clamp(3rem, 8vw, 8rem);
+  grid-template-columns: minmax(0, 1fr) minmax(15rem, 21rem);
+  gap: clamp(2.5rem, 6vw, 6rem);
   align-items: end;
-  padding: clamp(5rem, 10vw, 9rem) var(--page-pad) clamp(3rem, 6vw, 5.5rem);
+  padding: clamp(3.75rem, 7vw, 6.5rem) var(--page-pad) clamp(2.75rem, 4.5vw, 4rem);
   border-bottom: 1px solid var(--line);
 }
 
@@ -154,7 +154,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 0.55rem;
-  margin-bottom: 2.25rem;
+  margin-bottom: 1.75rem;
 }
 
 .status-dot {
@@ -169,7 +169,7 @@ footer {
 .hero h1 {
   max-width: 61rem;
   margin: 0;
-  font-size: clamp(4rem, 9.5vw, 9rem);
+  font-size: clamp(3.75rem, 7.5vw, 7rem);
   font-weight: 500;
   letter-spacing: -0.075em;
   line-height: 0.86;
@@ -182,8 +182,8 @@ footer {
 
 .hero-intro {
   max-width: 45rem;
-  margin: clamp(2.5rem, 5vw, 4.25rem) 0 0;
-  font-size: clamp(1.18rem, 2vw, 1.55rem);
+  margin: clamp(1.75rem, 3vw, 2.75rem) 0 0;
+  font-size: clamp(1.08rem, 1.6vw, 1.35rem);
   letter-spacing: -0.025em;
   line-height: 1.48;
 }
@@ -192,7 +192,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem 2rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   font-size: 0.82rem;
   font-weight: 700;
 }
@@ -205,7 +205,7 @@ footer {
   position: relative;
   overflow: hidden;
   aspect-ratio: 4 / 4.75;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   background: var(--paper-deep);
 }
 
@@ -261,7 +261,7 @@ footer {
 
 .work-section,
 .profile-section {
-  padding: clamp(5rem, 10vw, 9rem) var(--page-pad);
+  padding: clamp(4rem, 7vw, 6.5rem) var(--page-pad);
   border-bottom: 1px solid var(--line);
 }
 
@@ -270,7 +270,7 @@ footer {
   grid-template-columns: minmax(10rem, 0.7fr) minmax(0, 1.45fr);
   gap: 2rem;
   align-items: start;
-  margin-bottom: clamp(4rem, 8vw, 8rem);
+  margin-bottom: clamp(3rem, 5vw, 5rem);
 }
 
 .section-number {
@@ -281,7 +281,7 @@ footer {
 .section-heading h2,
 .contact-section h2 {
   margin: 0;
-  font-size: clamp(2.8rem, 5.7vw, 5.5rem);
+  font-size: clamp(2.5rem, 4.5vw, 4.25rem);
   font-weight: 500;
   letter-spacing: -0.065em;
   line-height: 0.97;
@@ -296,7 +296,7 @@ footer {
   display: grid;
   grid-template-columns: minmax(10rem, 0.7fr) minmax(0, 1.45fr) 3rem;
   gap: 2rem;
-  padding: clamp(3rem, 6vw, 5.5rem) 0;
+  padding: clamp(2.5rem, 4vw, 3.75rem) 0;
   border-bottom: 1px solid var(--line);
 }
 
@@ -327,7 +327,7 @@ footer {
 .work-copy h3 {
   max-width: 47rem;
   margin: 0.75rem 0 1.5rem;
-  font-size: clamp(1.8rem, 3.3vw, 3.2rem);
+  font-size: clamp(1.65rem, 2.65vw, 2.55rem);
   font-weight: 520;
   letter-spacing: -0.05em;
   line-height: 1.04;
@@ -345,8 +345,8 @@ footer {
   display: grid;
   gap: 0.6rem;
   max-width: 48rem;
-  margin: 2rem 0 0;
-  padding: 1.5rem 0 0;
+  margin: 1.5rem 0 0;
+  padding: 1.25rem 0 0;
   border-top: 1px solid var(--line);
   list-style: none;
 }
@@ -383,14 +383,14 @@ footer {
   display: flex;
   align-items: baseline;
   gap: 1rem;
-  margin: 2rem 0 1.5rem;
-  padding: 1.5rem;
+  margin: 1.5rem 0 1.25rem;
+  padding: 1.2rem;
   background: var(--accent);
 }
 
 .metric-value {
   flex: 0 0 auto;
-  font-size: clamp(1.7rem, 3vw, 2.75rem);
+  font-size: clamp(1.55rem, 2.45vw, 2.25rem);
   font-weight: 700;
   letter-spacing: -0.055em;
   line-height: 1;
@@ -413,7 +413,7 @@ footer {
 
 .text-link {
   display: inline-block;
-  margin-top: 1.75rem;
+  margin-top: 1.4rem;
   font-size: 0.82rem;
   font-weight: 750;
 }
@@ -427,7 +427,7 @@ footer {
 .profile-intro {
   max-width: 29rem;
   font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-  font-size: clamp(1.25rem, 2vw, 1.65rem);
+  font-size: clamp(1.15rem, 1.65vw, 1.4rem);
   line-height: 1.45;
 }
 
@@ -443,7 +443,7 @@ footer {
   display: grid;
   grid-template-columns: 3rem minmax(9rem, 0.7fr) 1fr;
   gap: 1rem;
-  padding: 1.5rem 0;
+  padding: 1.15rem 0;
   border-bottom: 1px solid var(--line);
 }
 
@@ -471,7 +471,7 @@ footer {
   display: grid;
   grid-template-columns: minmax(10rem, 0.7fr) minmax(0, 1.45fr);
   gap: 2rem;
-  margin-top: clamp(5rem, 10vw, 9rem);
+  margin-top: clamp(3.5rem, 6vw, 5.5rem);
   padding-top: 1.5rem;
   border-top: 1px solid var(--ink);
 }
@@ -498,7 +498,7 @@ footer {
 }
 
 .contact-section {
-  padding: clamp(5rem, 10vw, 9rem) var(--page-pad);
+  padding: clamp(4rem, 7vw, 6.5rem) var(--page-pad);
   color: var(--paper);
   background: var(--ink);
 }
@@ -509,15 +509,15 @@ footer {
 
 .contact-section h2 {
   max-width: 66rem;
-  margin-top: clamp(2rem, 4vw, 4rem);
+  margin-top: clamp(1.75rem, 3vw, 2.75rem);
 }
 
 .contact-link {
   display: inline-block;
-  margin-top: clamp(3rem, 6vw, 6rem);
+  margin-top: clamp(2.5rem, 4vw, 4rem);
   color: var(--accent);
   font-family: "Iowan Old Style", Georgia, serif;
-  font-size: clamp(2rem, 4vw, 4.25rem);
+  font-size: clamp(1.9rem, 3.2vw, 3.25rem);
   font-style: italic;
 }
 
@@ -549,12 +549,12 @@ footer p {
     min-height: 0;
     grid-template-columns: 1fr;
     align-items: start;
-    gap: 4rem;
-    padding-top: 4rem;
+    gap: 3rem;
+    padding-top: 3.5rem;
   }
 
   .hero h1 {
-    font-size: clamp(3.8rem, 17vw, 6.5rem);
+    font-size: clamp(3.5rem, 15vw, 5.5rem);
   }
 
   .now-card {
@@ -608,7 +608,7 @@ footer p {
   }
 
   .hero h1 {
-    font-size: clamp(3.35rem, 17vw, 5.2rem);
+    font-size: clamp(3.1rem, 15vw, 4.6rem);
   }
 
   .hero-intro {
